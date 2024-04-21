@@ -169,7 +169,7 @@ capture() {
                 capture_panes | $extrakto --warn-empty -r --urls
                 ;;
             "word")
-                capture_panes | $extrakto --warn-empty -r --words --all
+                capture_panes | $extrakto --warn-empty -r --words --alt
                 ;;
             *)
                 # custom filters
